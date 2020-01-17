@@ -3,11 +3,8 @@
 int main()
 {
 
-    float x, a, b, c;
-    while((scanf("%f %f %f",&a,&b,&c)) != EOF)
-    {
-        x = (a+b)*c/2;
-        printf ("Trapezoid area:%f\n", x);
-    }
+    int a, b;
+    while((scanf("%d %d",&a,&b) != EOF))
+        printf ("%d\n", a+b);
     return 0;
 }
